@@ -19,6 +19,10 @@ const config = {
     },
     extend: {
       colors: {
+        furniro: {
+          primary: "#B88E2F",
+          title: "#3A3A3A"
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

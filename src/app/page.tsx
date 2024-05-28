@@ -1,9 +1,7 @@
-import Image from "next/image";
+import HomePage from "@/components/pages/home_page";
 
 export default function Home() {
   return (
-    <div className="">
-      <p>HOME PAGE</p>
-    </div>
+    <HomePage/>
   );
 }
