@@ -24,7 +24,8 @@ const config = {
       colors: {
         furniro: {
           primary: "#B88E2F",
-          title: "#3A3A3A"
+          title: "#3A3A3A",
+          description: "#666666"
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
