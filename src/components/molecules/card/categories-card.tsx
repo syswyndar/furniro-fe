@@ -12,7 +12,7 @@ interface Iprops {
 const CategoriesCard = ({className, title, onClick}: Iprops) => {
     return (
         <>
-        <div className={cn("w-full rounded-md overflow-hidden hover:cursor-pointer border shadow-sm", className)} onClick={() => onClick()}>
+        <div className={cn("w-full rounded-md overflow-hidden hover:cursor-pointer shadow-md", className)} onClick={() => onClick()}>
             <div className="w-full h-[480px] relative">
                 <Image src={"/images/categories-img.png"} alt="hero" sizes="100vw" fill style={{objectFit: 'cover'}}/>
             </div>

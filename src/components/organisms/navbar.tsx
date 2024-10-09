@@ -13,7 +13,7 @@ export const NavbarComponent = () => {
     return (
         <nav className="fixed w-full border-b shadow-sm z-20 bg-white">
             <div className="flex justify-between items-center w-full py-6 container">
-                <div className="flex items-center">
+                <div className="flex items-center cursor-pointer">
                     <Image src={"/images/logo.png"} width={130} height={30} alt="logo"/>
                 </div>
                 <div className="hidden md:block">
